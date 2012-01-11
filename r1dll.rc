@@ -1,0 +1,114 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Englisch (USA) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_CONFIG DIALOGEX 0, 0, 332, 288
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "Tahoma", 0, 0, 0x0
+BEGIN
+    LTEXT           "Winamp ""title bar"" format string:",IDC_STATIC,8,11,149,8
+    EDITTEXT        IDC_FORMAT,8,20,294,12,ES_AUTOHSCROLL
+    LTEXT           "Notes: This plugin attempts to create a winamp compatible API for foobar2000. A fake winamp window is created and the title format above is set as the window title so that scripts looking for winamp will find it.",IDC_STATIC,9,88,283,31
+    LTEXT           "If you wish to be able to spam your favourite IRC channel with song stats, you may find my mIRC DLL, ""r1dll"" useful. Please visit the r1dll website at http://r1ch.net/r1dll. The latest version of this plugin is available at http://r1ch.net/foobar",IDC_STATIC,9,159,283,27,NOT WS_VISIBLE
+    LTEXT           "This window also responds to some basic Winamp API commands such as querying song information (kHz, Kbps, channels, duration, position), interface features such as shuffle/repeat and ability to play files and set options through the use of the Winamp API.",IDC_STATIC,9,119,283,31
+    CONTROL         "Enable Winamp Playlist writing (This might mess with your winamp playlist, but is required by some apps, eg. GTalk)",IDC_PLAYLIST,
+                    "Button",BS_AUTOCHECKBOX | BS_TOP | BS_MULTILINE | WS_TABSTOP,8,38,301,21
+    CONTROL         "Deactivate messages about not implemented lParams",IDC_NODEBUG,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,8,58,186,10
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_CONFIG, DIALOG
+    BEGIN
+        LEFTMARGIN, 8
+        RIGHTMARGIN, 316
+        BOTTOMMARGIN, 208
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Englisch (USA) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Englisch (GB) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENG)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_UK
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Englisch (GB) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
